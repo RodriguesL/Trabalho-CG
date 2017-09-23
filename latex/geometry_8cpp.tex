@@ -1,0 +1,60 @@
+\hypertarget{geometry_8cpp}{}\section{geometry.\+cpp File Reference}
+\label{geometry_8cpp}\index{geometry.\+cpp@{geometry.\+cpp}}
+{\ttfamily \#include \char`\"{}geometry.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{geometry_8cpp_a40f765016c8fc975d2f93da3bdff4ac8}{orientation\+Triangle\+Area} (\hyperlink{structPoint}{Point} a, \hyperlink{structPoint}{Point} b, \hyperlink{structPoint}{Point} c)
+\item 
+int \hyperlink{geometry_8cpp_ac747724c2cdee8a7b34b8213440fcb78}{intersection} (void)
+\item 
+void \hyperlink{geometry_8cpp_aeddf86bd2cddb215a8841b3121d8b3f8}{save\+Pair} (\hyperlink{structPoint}{Point} \hyperlink{main_8cpp_ad513d6f843f1e0539132467d503e4591}{p1}, \hyperlink{structPoint}{Point} \hyperlink{main_8cpp_a04aa64d0927f4422e811828cbe685358}{p2})
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{geometry_8cpp_ac747724c2cdee8a7b34b8213440fcb78}\label{geometry_8cpp_ac747724c2cdee8a7b34b8213440fcb78}} 
+\index{geometry.\+cpp@{geometry.\+cpp}!intersection@{intersection}}
+\index{intersection@{intersection}!geometry.\+cpp@{geometry.\+cpp}}
+\subsubsection{\texorpdfstring{intersection()}{intersection()}}
+{\footnotesize\ttfamily void intersection (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Computes if there is an intersection between all pairs of segments.
+
+If the intersection exists, its coordinates are calculated. It uses the orientation method to determine whether the points are on different sides \mbox{\Hypertarget{geometry_8cpp_a40f765016c8fc975d2f93da3bdff4ac8}\label{geometry_8cpp_a40f765016c8fc975d2f93da3bdff4ac8}} 
+\index{geometry.\+cpp@{geometry.\+cpp}!orientation\+Triangle\+Area@{orientation\+Triangle\+Area}}
+\index{orientation\+Triangle\+Area@{orientation\+Triangle\+Area}!geometry.\+cpp@{geometry.\+cpp}}
+\subsubsection{\texorpdfstring{orientation\+Triangle\+Area()}{orientationTriangleArea()}}
+{\footnotesize\ttfamily float orientation\+Triangle\+Area (\begin{DoxyParamCaption}\item[{\hyperlink{structPoint}{Point}}]{a,  }\item[{\hyperlink{structPoint}{Point}}]{b,  }\item[{\hyperlink{structPoint}{Point}}]{c }\end{DoxyParamCaption})}
+
+Computes twice the signed area of the orientation triangle. If it is oriented counterclockwise, the area is positive. Otherwise, it is negative.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & a \hyperlink{structPoint}{Point} struct \\
+\hline
+{\em b} & a \hyperlink{structPoint}{Point} struct \\
+\hline
+{\em c} & a \hyperlink{structPoint}{Point} struct \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Two times the area of the orientation triangle 
+\end{DoxyReturn}
+\mbox{\Hypertarget{geometry_8cpp_aeddf86bd2cddb215a8841b3121d8b3f8}\label{geometry_8cpp_aeddf86bd2cddb215a8841b3121d8b3f8}} 
+\index{geometry.\+cpp@{geometry.\+cpp}!save\+Pair@{save\+Pair}}
+\index{save\+Pair@{save\+Pair}!geometry.\+cpp@{geometry.\+cpp}}
+\subsubsection{\texorpdfstring{save\+Pair()}{savePair()}}
+{\footnotesize\ttfamily void save\+Pair (\begin{DoxyParamCaption}\item[{\hyperlink{structPoint}{Point}}]{p1,  }\item[{\hyperlink{structPoint}{Point}}]{p2 }\end{DoxyParamCaption})}
+
+Saves a pair of points (starting point and end point) of a segment.
+
+It saves the pair of points in a vector.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & a \hyperlink{structPoint}{Point} struct \\
+\hline
+{\em p2} & a \hyperlink{structPoint}{Point} struct \\
+\hline
+\end{DoxyParams}

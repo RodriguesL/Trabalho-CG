@@ -1,0 +1,131 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+{\ttfamily \#include \char`\"{}geometry.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_a33e20b37682a0492a9e95d13bef17f02}{change\+Size} (int w, int h)
+\item 
+void \hyperlink{main_8cpp_aaa77b8a3d263fa509acaa9c153b9be8c}{my\+Mouse} (int button, int state, int x, int y)
+\item 
+void \hyperlink{main_8cpp_a2a96aed746d13d9b42d7888e156045f6}{render\+Scene} (void)
+\item 
+int \hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{main_8cpp_ae426f00e82704fa09578f5446e22d915}{width} = 640
+\item 
+float \hyperlink{main_8cpp_a48083b65ac9a863566dc3e3fff09a5b4}{height} = 480
+\item 
+int \hyperlink{main_8cpp_abbbd35b56259cc0cd8f6010e6a8b43e6}{click\+\_\+counter} = 0
+\item 
+\hyperlink{structPoint}{Point} \hyperlink{main_8cpp_ad513d6f843f1e0539132467d503e4591}{p1}
+\item 
+\hyperlink{structPoint}{Point} \hyperlink{main_8cpp_a04aa64d0927f4422e811828cbe685358}{p2}
+\item 
+vector$<$ pair$<$ \hyperlink{structPoint}{Point}, \hyperlink{structPoint}{Point} $>$ $>$ \hyperlink{main_8cpp_a0fbded2ae8aa02fc7c5011fe17fc9f06}{points}
+\item 
+vector$<$ \hyperlink{structPoint}{Point} $>$ \hyperlink{main_8cpp_ad93fbfc54458616a37d4d6e726176abe}{intersection\+Points}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Trabalho 1 de Computação Gráfica I \begin{DoxyAuthor}{Author}
+Lucas Rodrigues Teixeira Nunes 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a33e20b37682a0492a9e95d13bef17f02}\label{main_8cpp_a33e20b37682a0492a9e95d13bef17f02}} 
+\index{main.\+cpp@{main.\+cpp}!change\+Size@{change\+Size}}
+\index{change\+Size@{change\+Size}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{change\+Size()}{changeSize()}}
+{\footnotesize\ttfamily void change\+Size (\begin{DoxyParamCaption}\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+Resizes the viewport when the window size changes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & an integer variable \\
+\hline
+{\em h} & an integer variable \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_aaa77b8a3d263fa509acaa9c153b9be8c}\label{main_8cpp_aaa77b8a3d263fa509acaa9c153b9be8c}} 
+\index{main.\+cpp@{main.\+cpp}!my\+Mouse@{my\+Mouse}}
+\index{my\+Mouse@{my\+Mouse}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{my\+Mouse()}{myMouse()}}
+{\footnotesize\ttfamily void my\+Mouse (\begin{DoxyParamCaption}\item[{int}]{button,  }\item[{int}]{state,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Callback function that gets mouse coordinates and button state.
+
+
+\begin{DoxyParams}{Parameters}
+{\em button} & an integer variable \\
+\hline
+{\em state} & an integer variable \\
+\hline
+{\em x} & an integer variable \\
+\hline
+{\em y} & an integer variable \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a2a96aed746d13d9b42d7888e156045f6}\label{main_8cpp_a2a96aed746d13d9b42d7888e156045f6}} 
+\index{main.\+cpp@{main.\+cpp}!render\+Scene@{render\+Scene}}
+\index{render\+Scene@{render\+Scene}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{render\+Scene()}{renderScene()}}
+{\footnotesize\ttfamily void render\+Scene (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Callback function to render Open\+GL scene and draw the segments and intersections. 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{main_8cpp_abbbd35b56259cc0cd8f6010e6a8b43e6}\label{main_8cpp_abbbd35b56259cc0cd8f6010e6a8b43e6}} 
+\index{main.\+cpp@{main.\+cpp}!click\+\_\+counter@{click\+\_\+counter}}
+\index{click\+\_\+counter@{click\+\_\+counter}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{click\+\_\+counter}{click\_counter}}
+{\footnotesize\ttfamily int click\+\_\+counter = 0}
+
+\mbox{\Hypertarget{main_8cpp_a48083b65ac9a863566dc3e3fff09a5b4}\label{main_8cpp_a48083b65ac9a863566dc3e3fff09a5b4}} 
+\index{main.\+cpp@{main.\+cpp}!height@{height}}
+\index{height@{height}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{height}{height}}
+{\footnotesize\ttfamily float height = 480}
+
+\mbox{\Hypertarget{main_8cpp_ad93fbfc54458616a37d4d6e726176abe}\label{main_8cpp_ad93fbfc54458616a37d4d6e726176abe}} 
+\index{main.\+cpp@{main.\+cpp}!intersection\+Points@{intersection\+Points}}
+\index{intersection\+Points@{intersection\+Points}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{intersection\+Points}{intersectionPoints}}
+{\footnotesize\ttfamily vector$<$\hyperlink{structPoint}{Point}$>$ intersection\+Points}
+
+\mbox{\Hypertarget{main_8cpp_ad513d6f843f1e0539132467d503e4591}\label{main_8cpp_ad513d6f843f1e0539132467d503e4591}} 
+\index{main.\+cpp@{main.\+cpp}!p1@{p1}}
+\index{p1@{p1}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{p1}{p1}}
+{\footnotesize\ttfamily \hyperlink{structPoint}{Point} p1}
+
+\mbox{\Hypertarget{main_8cpp_a04aa64d0927f4422e811828cbe685358}\label{main_8cpp_a04aa64d0927f4422e811828cbe685358}} 
+\index{main.\+cpp@{main.\+cpp}!p2@{p2}}
+\index{p2@{p2}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{p2}{p2}}
+{\footnotesize\ttfamily \hyperlink{structPoint}{Point} p2}
+
+\mbox{\Hypertarget{main_8cpp_a0fbded2ae8aa02fc7c5011fe17fc9f06}\label{main_8cpp_a0fbded2ae8aa02fc7c5011fe17fc9f06}} 
+\index{main.\+cpp@{main.\+cpp}!points@{points}}
+\index{points@{points}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{points}{points}}
+{\footnotesize\ttfamily vector$<$pair$<$\hyperlink{structPoint}{Point},\hyperlink{structPoint}{Point}$>$ $>$ points}
+
+\mbox{\Hypertarget{main_8cpp_ae426f00e82704fa09578f5446e22d915}\label{main_8cpp_ae426f00e82704fa09578f5446e22d915}} 
+\index{main.\+cpp@{main.\+cpp}!width@{width}}
+\index{width@{width}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{width}{width}}
+{\footnotesize\ttfamily float width = 640}
+

@@ -1,0 +1,43 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Point Struct Reference}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Member Data Documentation}{5}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}x}{5}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}y}{5}{subsubsection.3.1.2.2}
+\contentsline {chapter}{\numberline {4}File Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}geometry.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Function Documentation}{7}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}intersection()}{7}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}orientation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Triangle\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Area()}{7}{subsubsection.4.1.1.2}
+\contentsline {subsubsection}{\numberline {4.1.1.3}save\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Pair()}{8}{subsubsection.4.1.1.3}
+\contentsline {section}{\numberline {4.2}geometry.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{8}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Function Documentation}{9}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}intersection()}{9}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}orientation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Triangle\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Area()}{9}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.3}save\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Pair()}{9}{subsubsection.4.2.1.3}
+\contentsline {subsection}{\numberline {4.2.2}Variable Documentation}{10}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}click\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}counter}{10}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}intersection\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Points}{10}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}p1}{10}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}p2}{10}{subsubsection.4.2.2.4}
+\contentsline {subsubsection}{\numberline {4.2.2.5}points}{10}{subsubsection.4.2.2.5}
+\contentsline {section}{\numberline {4.3}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{10}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{11}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Function Documentation}{11}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}change\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Size()}{11}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}main()}{11}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}my\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Mouse()}{12}{subsubsection.4.3.2.3}
+\contentsline {subsubsection}{\numberline {4.3.2.4}render\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Scene()}{12}{subsubsection.4.3.2.4}
+\contentsline {subsection}{\numberline {4.3.3}Variable Documentation}{12}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}click\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}counter}{12}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}height}{12}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}intersection\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Points}{13}{subsubsection.4.3.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.4}p1}{13}{subsubsection.4.3.3.4}
+\contentsline {subsubsection}{\numberline {4.3.3.5}p2}{13}{subsubsection.4.3.3.5}
+\contentsline {subsubsection}{\numberline {4.3.3.6}points}{13}{subsubsection.4.3.3.6}
+\contentsline {subsubsection}{\numberline {4.3.3.7}width}{13}{subsubsection.4.3.3.7}
+\contentsline {chapter}{Index}{15}{section*.9}
