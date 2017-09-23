@@ -1,3 +1,10 @@
+/**
+@file geometry.cpp
+
+Trabalho 1 de Computação Gráfica I
+@author Lucas Rodrigues Teixeira Nunes
+*/
+
 #include "geometry.h"
 
 /**
@@ -21,12 +28,12 @@ If the intersection exists, its coordinates are calculated. It uses the orientat
 @fn void intersection(void)
 */
 int intersection(void) {
-	for (int i = 0; i < points.size(); i++) {
-		for (int j = 1; j <= points.size(); j++) {
+	int size = points.size();
+	for (int i = 0; i < size; i++) {
 			Point a = points[i].first;
 			Point b = points[i].second;
-			Point c = points[j].first;
-			Point d = points[j].second;
+			Point c = points[size-1].first;
+			Point d = points[size-1].second;
 			Point p;
 
 		    // signs of areas correspond to which side of ab points c and d are
@@ -49,7 +56,7 @@ int intersection(void) {
 		           
 		        }
 		    }
-		}
+		
 	}
 }
 

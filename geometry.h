@@ -1,3 +1,10 @@
+/**
+@file geometry.h
+
+Trabalho 1 de Computação Gráfica I
+@author Lucas Rodrigues Teixeira Nunes
+*/
+
 #ifndef _GEOMETRY_H
 #define _GEOMETRY_H
 
