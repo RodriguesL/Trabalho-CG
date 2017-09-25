@@ -90,6 +90,7 @@ void renderScene(void) {
     gluOrtho2D (0.0, width, height, 0.0);
     glEnable(GL_POINT_SMOOTH);
     glEnable(GL_LINE_SMOOTH);
+    //For all points coordinates added by the mouse, draw the lines
 	for (int i = 0; i < points.size(); i++) {
 		glBegin(GL_LINES);
 			glColor3f(255.0, 255.0, 255.0);
@@ -97,7 +98,8 @@ void renderScene(void) {
 			glVertex3f(points[i].second.x, points[i].second.y, 0.0);
 		glEnd();
 	}
-	intersection(); //Check if there are intersections 
+	intersection(); //Check if there are intersections
+	//For all intersecting points found between the last drawn line and the lines that were already drawn
 	for (int i = 0; i < intersectionPoints.size(); i++) {
 		glPointSize(7.0);
 		glBegin(GL_POINTS);

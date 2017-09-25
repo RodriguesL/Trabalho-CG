@@ -6,22 +6,32 @@
 \item 
 float \hyperlink{geometry_8cpp_a40f765016c8fc975d2f93da3bdff4ac8}{orientation\+Triangle\+Area} (\hyperlink{structPoint}{Point} a, \hyperlink{structPoint}{Point} b, \hyperlink{structPoint}{Point} c)
 \item 
-int \hyperlink{geometry_8cpp_ac747724c2cdee8a7b34b8213440fcb78}{intersection} (void)
+int \hyperlink{geometry_8cpp_ae58fabe9c0df96b1bc9e9f2803f52aad}{intersection} (void)
 \item 
 void \hyperlink{geometry_8cpp_aeddf86bd2cddb215a8841b3121d8b3f8}{save\+Pair} (\hyperlink{structPoint}{Point} \hyperlink{main_8cpp_ad513d6f843f1e0539132467d503e4591}{p1}, \hyperlink{structPoint}{Point} \hyperlink{main_8cpp_a04aa64d0927f4422e811828cbe685358}{p2})
 \end{DoxyCompactItemize}
 
 
+\subsection{Detailed Description}
+Trabalho 1 de Computação Gráfica I \begin{DoxyAuthor}{Author}
+Lucas Rodrigues Teixeira Nunes 
+\end{DoxyAuthor}
+
+
 \subsection{Function Documentation}
-\mbox{\Hypertarget{geometry_8cpp_ac747724c2cdee8a7b34b8213440fcb78}\label{geometry_8cpp_ac747724c2cdee8a7b34b8213440fcb78}} 
+\mbox{\Hypertarget{geometry_8cpp_ae58fabe9c0df96b1bc9e9f2803f52aad}\label{geometry_8cpp_ae58fabe9c0df96b1bc9e9f2803f52aad}} 
 \index{geometry.\+cpp@{geometry.\+cpp}!intersection@{intersection}}
 \index{intersection@{intersection}!geometry.\+cpp@{geometry.\+cpp}}
 \subsubsection{\texorpdfstring{intersection()}{intersection()}}
-{\footnotesize\ttfamily void intersection (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int intersection (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
 Computes if there is an intersection between all pairs of segments.
 
-If the intersection exists, its coordinates are calculated. It uses the orientation method to determine whether the points are on different sides \mbox{\Hypertarget{geometry_8cpp_a40f765016c8fc975d2f93da3bdff4ac8}\label{geometry_8cpp_a40f765016c8fc975d2f93da3bdff4ac8}} 
+If the intersection exists, its coordinates are calculated. It uses the orientation method to determine whether the points are on different sides 
+
+Definition at line 30 of file geometry.\+cpp.
+
+\mbox{\Hypertarget{geometry_8cpp_a40f765016c8fc975d2f93da3bdff4ac8}\label{geometry_8cpp_a40f765016c8fc975d2f93da3bdff4ac8}} 
 \index{geometry.\+cpp@{geometry.\+cpp}!orientation\+Triangle\+Area@{orientation\+Triangle\+Area}}
 \index{orientation\+Triangle\+Area@{orientation\+Triangle\+Area}!geometry.\+cpp@{geometry.\+cpp}}
 \subsubsection{\texorpdfstring{orientation\+Triangle\+Area()}{orientationTriangleArea()}}
@@ -41,6 +51,10 @@ Computes twice the signed area of the orientation triangle. If it is oriented co
 \begin{DoxyReturn}{Returns}
 Two times the area of the orientation triangle 
 \end{DoxyReturn}
+
+
+Definition at line 19 of file geometry.\+cpp.
+
 \mbox{\Hypertarget{geometry_8cpp_aeddf86bd2cddb215a8841b3121d8b3f8}\label{geometry_8cpp_aeddf86bd2cddb215a8841b3121d8b3f8}} 
 \index{geometry.\+cpp@{geometry.\+cpp}!save\+Pair@{save\+Pair}}
 \index{save\+Pair@{save\+Pair}!geometry.\+cpp@{geometry.\+cpp}}
@@ -58,3 +72,7 @@ It saves the pair of points in a vector.
 {\em p2} & a \hyperlink{structPoint}{Point} struct \\
 \hline
 \end{DoxyParams}
+
+
+Definition at line 71 of file geometry.\+cpp.
+
